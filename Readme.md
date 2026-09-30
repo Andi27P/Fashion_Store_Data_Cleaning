@@ -8,10 +8,10 @@ I investigated and resolved anomalies across 4 core datasets: `Customer_Data`, `
 ## 🛠️ Cleaning Process
 
 * **Missing Data:** 
- * Identify on each of the 4th datasets 'Customer_Data', 'Sales_Data','Store_Data', 'Product_Data' any anomalies using SQL.
- * Fill the empty columns where needed In order to easy identify the permanent customer or subscribed customer vs guest customer.
- * Add an Uncategorized Class for the products without a known product category.
- * Find any product that is on the sales history but doesn't appear on the Product list and Insert the missing product id into the Sales Table.
+     - Identify on each of the 4th datasets 'Customer_Data', 'Sales_Data','Store_Data', 'Product_Data' any anomalies using SQL.
+     - Fill the empty columns where needed In order to easy identify the permanent customer or subscribed customer vs guest customer.
+     - Add an Uncategorized Class for the products without a known product category.
+     - Find any product that is on the sales history but doesn't appear on the Product list and Insert the missing product id into the Sales Table.
 
 * **Financial Correction:**
  * Apply correction for the prices where the list prices is smaller than cost prices.
