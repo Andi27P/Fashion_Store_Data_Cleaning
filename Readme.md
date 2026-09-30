@@ -14,13 +14,13 @@ I investigated and resolved anomalies across 4 core datasets: `Customer_Data`, `
      - Find any product that is on the sales history but doesn't appear on the Product list and Insert the missing product id into the Sales Table.
 
 * **Financial Correction:**
- * Apply correction for the prices where the list prices is smaller than cost prices.
+     - Apply correction for the prices where the list prices is smaller than cost prices.
 
 * **Guest Account Generations:**
- * Set a distinct Guest Username for Customer who doesn't have an account on the store using ROWID.
+     - Set a distinct Guest Username for Customer who doesn't have an account on the store using ROWID.
 
 * **Clean Format:**
- * Ensuring an universal used type of Date format using SUBSTR
+     - Ensuring an universal used type of Date format using SUBSTR
 
 
 ## 📊 Outcome:
